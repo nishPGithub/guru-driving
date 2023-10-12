@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/guru-driving/static/css/main.9edd53cf.css",
+    "main.css": "/guru-driving/static/css/main.560c0660.css",
     "main.js": "/guru-driving/static/js/main.fb587c45.js",
     "static/js/787.bc1800c5.chunk.js": "/guru-driving/static/js/787.bc1800c5.chunk.js",
     "index.html": "/guru-driving/index.html",
-    "main.9edd53cf.css.map": "/guru-driving/static/css/main.9edd53cf.css.map",
+    "main.560c0660.css.map": "/guru-driving/static/css/main.560c0660.css.map",
     "main.fb587c45.js.map": "/guru-driving/static/js/main.fb587c45.js.map",
     "787.bc1800c5.chunk.js.map": "/guru-driving/static/js/787.bc1800c5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9edd53cf.css",
+    "static/css/main.560c0660.css",
     "static/js/main.fb587c45.js"
   ]
 }
