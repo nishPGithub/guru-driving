@@ -19,7 +19,7 @@ html {
     .App {
         box-shadow: 0 0 25px 0 var(--GREY);
         margin: auto;
-        max-width: 1500px;
+        max-width: 1400px;
         color: grey;
     }
 }
