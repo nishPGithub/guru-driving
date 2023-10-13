@@ -1,18 +1,21 @@
 import React from "react";
-import Link from "./Link";
+import Navigation from "./Navigation";
 
 export default function Navbar(props) {
-return (
-    <div className="navWrapper">
-        <nav className="navbar">
-            <ul className="linkList">
-            <Link href="/home" text="Home" />
-            <Link href="/" text="About" />
-            <Link href="/" text="Pricing" />
-            <Link href="/" text="Reviews" />
-            <Link href="/" text="Contact" />
-            </ul>
-        </nav>
-    </div>
-)
+
+    const links = [
+        { to: '/', label: 'Home' },
+        { to: '/about', label: 'About' },
+        { to: '/pricing', label: 'Pricing' },
+        { to: '/reviews', label: 'Reviews' },
+        { to: '/contact', label: 'Contact' },
+    ];
+
+    return (
+        <div className="navWrapper">
+            <nav className="navbar">
+                <Navigation links={links} />
+            </nav>
+        </div>
+    )
 }
