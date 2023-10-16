@@ -5,6 +5,11 @@ import AppRoutes from "./Components/AppRoutes";
 import Home from "./Pages/Home";
 
 function App() {
+    const viewportHeight = window.innerHeight;
+    const viewportWidth = window.innerWidth;
+
+    console.log(viewportHeight);
+    console.log(viewportWidth);
 
     const routes = [
         { path: "/", element: <Home /> },
