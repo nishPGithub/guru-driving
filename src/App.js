@@ -1,8 +1,8 @@
 import { BrowserRouter} from "react-router-dom";
-import Header from "./Components/Header";
 import "./Styles/index.css";
-import AppRoutes from "./Components/AppRoutes";
 import Home from "./Pages/Home";
+import Header from "./Components/Header/Header";
+import AppRoutes from "./Components/Routing/AppRoutes"
 
 function App() {
     const viewportHeight = window.innerHeight;

@@ -9,6 +9,11 @@ export default function ContactForm(props) {
     const handleSubmit = (event) => {
         event.preventDefault();
         // Handle form submission logic here
+        console.log("Submit Button Clicked");
+        setFullName('');
+        setPhoneNumber('');
+        setEmailAddress('');
+        setMessage('');
     };
 
     return (

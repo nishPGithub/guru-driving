@@ -1,15 +1,18 @@
 import React from "react";
-import Text from "./Text";
-import Title from "./Title";
-import "../Styles/banner.css"
-import ContactForm from "./ContactForm";
+import Text from "../Text/Text";
+import Title from "../Text/Title";
+import '../Banner/banner.css'
+import ContactForm from "../ContactForm/ContactForm";
 
 export default function Banner() {
     return (
         <div className="bannerWrapper">
             <div className="bannerInner">
-                <Title class="homeTitle" text="Guru Driving School" />
-                <Text class="bannerText" text="Lorem Ipsum" />
+                <Title class="homeTitle" text="Place Title Here" />
+                <Text class="bannerText" text="Add any banner text here" />
+                <Text class="bannerText" text="Add any banner text here" />
+                <Text class="bannerText" text="Add any banner text here" />
+                <Text class="bannerText" text="Add any banner text here" />
             </div>
             <div className="bannerInner bannerForm">
                 <div className="bannerInnerWrapper">
