@@ -1,0 +1,255 @@
+@media (max-width: 585px) {
+    .bannerWrapper {
+        display: flex;
+        justify-content: space-between;
+        background-repeat: no-repeat;
+        background-image: url(../../Images/banner-bg-small.jpeg);
+        height: 209px;
+        background-size: cover;
+        padding: 25px 10%;
+    }
+
+    .bannerInner {
+        display: flex;
+        flex-direction: column;
+        color: var(--BLACK);
+    }
+
+    .titleWrapper {
+        font-size: 1.6rem;
+        font-weight: 700;
+        padding-bottom: 25px;
+    }
+
+    .bannerText {
+        font-size: 0.8rem;
+        color: var(--WHITE);
+    }
+
+    .bannerInnerWrapper {
+        background-color: var(--WHITE);
+        border-radius: 5px;
+    }
+
+    .formText {
+        padding: 5px;
+        background-color: var(--LIGHT-GREY);
+        font-size: 1.2rem;
+        text-align: center;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .bannerContantForm {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bannerForm {
+        width: 32.5%;
+    }
+
+    .bannerForm label {
+        padding: 5px;
+    }
+
+    .bannerInput {
+        font-size: 0.6rem;
+        padding: 5px;
+        width: 100%;
+        outline: none;
+        border-bottom: 1px solid var(--LIGHT-GREY);
+    }
+
+    textarea.bannerInput {
+        max-width: 100%;
+        width: 334px;
+        height: 15px;
+        resize: none;
+    }
+
+    .bannerSubmit {
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 5px;
+        background-color: #ffa600;
+        color: var(--WHITE);
+        font-weight: bold;
+        border-radius: 0 0 5px 2px;
+    }
+
+    .bannerSubmit:hover {
+        box-shadow: 0 0 5px 0 #ffa600;
+    }
+}
+
+@media (min-width: 586px) and (max-width: 900px) {
+    .bannerWrapper {
+        display: flex;
+        justify-content: space-between;
+        background-repeat: no-repeat;
+        background-image: url(../../Images/banner-bg-medium.jpeg);
+        height: 321px;
+        background-size: cover;
+        padding: 25px 10%;
+    }
+
+    .bannerInner {
+        display: flex;
+        flex-direction: column;
+        color: var(--BLACK);
+    }
+
+    .titleWrapper {
+        font-size: 2.4rem;
+        font-weight: 700;
+        padding-bottom: 25px;
+    }
+
+    .bannerText {
+        font-size: 1.4rem;
+        color: var(--WHITE);
+    }
+
+    .bannerInnerWrapper {
+        background-color: var(--WHITE);
+        border-radius: 5px;
+    }
+
+    .formText {
+        padding: 15px;
+        background-color: var(--LIGHT-GREY);
+        font-size: 1.6rem;
+        text-align: center;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .bannerContantForm {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bannerForm {
+        width: 32.5%;
+    }
+
+    .bannerForm label {
+        padding: 10px;
+    }
+
+    .bannerInput {
+        font-size: 1.2rem;
+        padding: 5px;
+        width: 100%;
+        outline: none;
+        border-bottom: 1px solid var(--LIGHT-GREY);
+    }
+
+    textarea.bannerInput {
+        max-height: 80px;
+        min-height: 30px;
+        max-width: 100%;
+        width: 334px;
+        height: 35px;
+        resize: none;
+    }
+
+    .bannerSubmit {
+        text-align: center;
+        font-size: 1.6rem;
+        padding: 10px;
+        background-color: #ffa600;
+        color: var(--WHITE);
+        font-weight: bold;
+        border-radius: 0 0 5px 2px;
+    }
+
+    .bannerSubmit:hover {
+        box-shadow: 0 0 5px 0 #ffa600;
+    }
+}
+
+@media (min-width: 901px) {
+    .bannerWrapper {
+        background-image: url(../../Images/banner-bg-large.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        padding: 25px 10%;
+        height: 500px;
+        justify-content: space-between;
+    }
+
+    .bannerInner {
+        display: flex;
+        flex-direction: column;
+        color: var(--BLACK);
+    }
+
+    .titleWrapper {
+        font-size: 4.4rem;
+        font-weight: 700;
+        padding-bottom: 25px;
+    }
+
+    .bannerInnerWrapper {
+        background-color: var(--WHITE);
+        border-radius: 5px;
+    }
+
+    .bannerText {
+        font-size: 2.4rem;
+        color: var(--WHITE);
+    }
+
+    .formText {
+        padding: 15px;
+        background-color: var(--LIGHT-GREY);
+        font-size: 1.8rem;
+        text-align: center;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .bannerContantForm {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bannerForm {
+        width: 32.5%;
+    }
+
+    label {
+        padding: 15px;
+    }
+
+    .bannerInput {
+        font-size: 1.6rem;
+        padding: 15px;
+        width: 100%;
+        outline: none;
+        border-bottom: 1px solid var(--LIGHT-GREY);
+    }
+
+    textarea.bannerInput {
+        max-height: 80px;
+        min-height: 35px;
+        max-width: 100%;
+        width: 334px;
+        height: 66px;
+        resize: none;
+    }
+
+    .bannerSubmit {
+        text-align: center;
+        font-size: 1.6rem;
+        padding: 15px;
+        background-color: #ffa600;
+        color: var(--WHITE);
+        font-weight: bold;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .bannerSubmit:hover {
+        box-shadow: 0 0 5px 0 #ffa600;
+    }
+}
