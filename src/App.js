@@ -3,6 +3,7 @@ import "./Styles/index.css";
 import Home from "./Pages/Home";
 import Header from "./Components/Header/Header";
 import AppRoutes from "./Components/Routing/AppRoutes"
+import InfoColumn from "./Components/InfoColumn/InfoColumn";
 
 function App() {
     const viewportHeight = window.innerHeight;
@@ -20,7 +21,7 @@ function App() {
     ];
 
     return (
-        <BrowserRouter basename="/guru-driving/">
+        <BrowserRouter basename="/guru-driving">
             <div className="App">
                 <Header />
                 <AppRoutes routes={routes} />
