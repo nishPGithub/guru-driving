@@ -3,18 +3,21 @@ import Navigation from "../Routing/Navigation";
 
 export default function Navbar(props) {
 
-    const links = [
-        { to: '/', label: 'Home' },
-        { to: '/about', label: 'About' },
-        { to: '/pricing', label: 'Pricing' },
-        { to: '/reviews', label: 'Reviews' },
-        { to: '/contact', label: 'Contact' },
-    ];
+    const links = global.model.navigation;
 
     return (
         <div className="navWrapper">
             <nav className="navbar">
-                <Navigation links={links} />
+            <ul className="linkList">
+                        {links.map((item, index) =>(
+                            <Navigation
+                                class="link"
+                                index={index}
+                                to={item.to}
+                                label={item.label}
+                            />
+                        ))}
+                    </ul>
             </nav>
         </div>
     )

@@ -52,7 +52,7 @@
 @media (min-width: 561px) and (max-width: 900px) {
     .infoColumnContainer {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         padding: 45px 10%;
         text-align: center;
@@ -66,6 +66,7 @@
         box-shadow: 0 0 5px 2px var(--LIGHT-GREY);
         min-height: 175px;
         justify-content: space-evenly;
+        min-width: 435px;
     }
 
     .infoColumnImage {
@@ -102,7 +103,7 @@
 @media (min-width: 901px) {
     .infoColumnContainer {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         padding: 45px 10%;
         text-align: center;

@@ -18,5 +18,53 @@
             "title": "Wide range of experience",
             "content": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }
+    ],
+    "social": [
+        {
+            "logo": "icon-tiktok",
+            "to": ""
+        },
+        {
+            "logo": "icon-facebook2",
+            "to": ""
+        },
+        {
+            "logo": "icon-instagram",
+            "to": ""
+        },
+        {
+            "logo": "icon-whatsapp",
+            "to": ""
+        },
+        {
+            "logo": "icon-youtube",
+            "to": ""
+        },
+        {
+            "logo": "icon-twitter",
+            "to": ""
+        }
+    ],
+    "navigation": [
+        {
+            "to": "/",
+            "label": "Home"
+        },
+        {
+            "to": "/about",
+            "label": "About"
+        },
+        {
+            "to": "/pricing",
+            "label": "Pricing"
+        },
+        {
+            "to": "/reviews",
+            "label": "Reviews"
+        },
+        {
+            "to": "/contact",
+            "label": "Contact"
+        }
     ]
 }
