@@ -14,7 +14,7 @@ export default function SocialBanner(props) {
             <div className="socialBannerContentWrapper">
                 <div className="SocialContentInnerCOntainer">
                     <ul className="socialLink">
-                        {socialLink.map((item, index) =>(
+                        {socialLink.map((item, index) => (
                             <Navigation
                                 index={index}
                                 class={item.logo}
