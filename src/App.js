@@ -3,6 +3,7 @@ import "./Styles/index.css";
 import Home from "./Pages/Home";
 import Header from "./Components/Header/Header";
 import AppRoutes from "./Components/Routing/AppRoutes"
+import "../src/Styles/style.css"
 
 function App() {
     const viewportHeight = window.innerHeight;

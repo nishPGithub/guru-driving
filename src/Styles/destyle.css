@@ -352,10 +352,10 @@ textarea {
 }
 
 /**
- * Clickable labels
+ * Clickable "label"s
  */
 
-label[for] {
+"label"[for] {
   cursor: pointer;
 }
 
