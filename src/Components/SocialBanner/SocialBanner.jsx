@@ -2,11 +2,12 @@ import React from "react";
 
 import Navigation from "../Routing/Navigation";
 import SocialBannerTitle from "./SocialBannerTitle";
+import "./socialBanner.css"
 
 export default function SocialBanner(props) {
     const socialLink = global.model.social;
     return (
-        <div className="socailBannerWrapper">
+        <div className="socialBannerWrapper">
             <div className="socialBannerInnerContainer">
                 <SocialBannerTitle title="Social Media" />
             </div>

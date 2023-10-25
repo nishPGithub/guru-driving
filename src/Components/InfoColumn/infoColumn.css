@@ -16,6 +16,7 @@
         min-height: 175px;
         justify-content: space-evenly;
         margin-bottom: 20px;
+        min-width: 435px;
     }
 
     .infoColumnImage {
@@ -66,7 +67,6 @@
         box-shadow: 0 0 5px 2px var(--LIGHT-GREY);
         min-height: 175px;
         justify-content: space-evenly;
-        min-width: 435px;
     }
 
     .infoColumnImage {

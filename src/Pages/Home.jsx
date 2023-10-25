@@ -11,6 +11,9 @@ export default function Home() {
             <div className="bannerContent">
                 <Banner />
             </div>
+            <div className="socialBannerOuterContainer">
+                <SocialBanner />
+            </div>
             <div className="infoColumnContainer">
                 {titles.map((item, index) => (
                     <InfoColumn
@@ -21,9 +24,6 @@ export default function Home() {
                         content={item.content}
                     />
                 ))}
-            </div>
-            <div className="socialBannerOuterContainer">
-                <SocialBanner />
             </div>
         </div>
     )
