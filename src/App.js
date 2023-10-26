@@ -7,12 +7,6 @@ import "../src/Styles/style.css";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
-    const viewportHeight = window.innerHeight;
-    const viewportWidth = window.innerWidth;
-
-    console.log(viewportHeight);
-    console.log(viewportWidth);
-
     const routes = [
         { path: "/", element: <Home /> },
         { path: "/about", element: App },

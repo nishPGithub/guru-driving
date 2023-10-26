@@ -5,6 +5,8 @@ export default function ContactForm(props) {
     const [phoneNumber, setPhoneNumber] = useState('');
     const [emailAddress, setEmailAddress] = useState('');
     const [message, setMessage] = useState('');
+    console.log(process.env.REACT_APP_SHEET_ID);
+    console.log(process.env.REACT_APP_API_KEY);
 
     const handleSubmit = (event) => {
         event.preventDefault();
