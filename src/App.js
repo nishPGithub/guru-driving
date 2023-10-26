@@ -3,7 +3,8 @@ import "./Styles/index.css";
 import Home from "./Pages/Home";
 import Header from "./Components/Header/Header";
 import AppRoutes from "./Components/Routing/AppRoutes"
-import "../src/Styles/style.css"
+import "../src/Styles/style.css";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
     const viewportHeight = window.innerHeight;
@@ -25,6 +26,7 @@ function App() {
             <div className="App">
                 <Header />
                 <AppRoutes routes={routes} />
+                <Footer />
             </div>
         </BrowserRouter>
     );
