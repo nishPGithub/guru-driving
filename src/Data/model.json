@@ -66,5 +66,29 @@
             "to": "/contact",
             "label": "Contact"
         }
+    ],
+    "pricing": [
+        {
+            "title": "Package 1",
+            "tag": "Enter Price",
+            "content": [
+                "Filler item 1",
+                "Filler item 2",
+                "Filler item 3",
+                "Filler item 4",
+                "Filler item 5"
+            ]
+        },
+        {
+            "title": "Package 2",
+            "tag": "Enter Price",
+            "content": [
+                "Filler item 1",
+                "Filler item 2",
+                "Filler item 3",
+                "Filler item 4",
+                "Filler item 5"
+            ]
+        }
     ]
 }
