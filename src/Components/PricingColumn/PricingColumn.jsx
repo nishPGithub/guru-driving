@@ -1,22 +1,23 @@
 import React from "react";
 import InfoColumnTitle from "../InfoColumn/InfoColumnTitle";
 import PricingColumnContent from "./PricingColumnContent";
+import "./pricingColumn.css";
 
 export default function PricingColumn(props) {
     return (
-        <div className="pricingColumnWrapper">
+        <div className="pricingColumnInnerWrapper">
             <div className="pricingColumnContentWrapper">
-                <div className="title">
+                <div className="pricingColumnTitle">
                     <InfoColumnTitle class='pricingTitle' title={props.title} />
                 </div>
-                <div className="divider">
-                    <hr className="break"></hr>
+                <div className="pricingDivider">
+                    <hr className="pricingBreak"></hr>
                 </div>
                 <div className="valueTag">
                     <InfoColumnTitle class='pricingtag' title={props.tag} />
                 </div>
-                <div className="divider">
-                    <hr className="break"></hr>
+                <div className="pricingDivider">
+                    <hr className="pricingBreak"></hr>
                 </div>
                 <div className="pricingColumnContent">
                     <ul className="pricingColumnList">

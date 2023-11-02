@@ -28,14 +28,22 @@ export default function Home() {
                 ))}
             </div>
             <div className="pricingColumnWrapper">
-                {pricing.map((item, index) => (
-                    <PricingColumn
-                        key={index}
-                        title={item.title}
-                        tag={item.tag}
-                        content={item.content}
-                    />
-                ))}
+                <div className="pricingColumnHeaderWrapper">
+                    <div className="pricingColumnHeaderTitle">
+                        <h2 className="pricingHeaderTitle">Pricing</h2>
+                        <p className="pricingHeaderContent">Checkout Our Pricing Options</p>
+                    </div>
+                </div>
+                <div className="pricingColumncontentRow">
+                    {pricing.map((item, index) => (
+                        <PricingColumn
+                            key={index}
+                            title={item.title}
+                            tag={item.tag}
+                            content={item.content}
+                        />
+                    ))}
+                </div>
             </div>
         </div>
     )

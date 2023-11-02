@@ -1,0 +1,254 @@
+@media (max-width: 560px) {
+    .pricingColumnWrapper {
+        padding: var(--GUTTER);
+        padding-top: 2%;
+        padding-bottom: 2%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        text-align: center;
+        min-height: 350px;
+    }
+
+    .pricingColumncontentRow {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .pricingColumnInnerWrapper {
+        padding: 5px;
+        text-align: center;
+        background: var(--BG-GREY);
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .pricingColumnInnerWrapper:last-child {
+        margin-bottom: 0px;
+    }
+
+    .pricingColumnContentWrapper {
+        display: flex;
+        background: VAR(--WHITE);
+        width: 99%;
+        border: 1px solid var(--LIGHT-GREY);
+        padding: 2%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricingDivider {
+        color: #c39f77;
+        width: 90%;
+    }
+
+    .pricingColumnTitle {
+        padding: 5px 0;
+    }
+
+    .pricingTitle {
+        font-size: 2.8rem;
+        font-weight: 700;
+    }
+
+    .pricingtag {
+        font-size: 2.5rem;
+        padding: 5px 0;
+    }
+
+    .pricingColumnContent {
+        padding-top: 10px;
+    }
+
+    .pricingHeaderTitle {
+        font-size: 4rem;
+        color: var(--BLACK);
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+
+    .pricingListItemWrapper {
+        padding-bottom: 24px;
+        font-size: 1.5rem;
+    }
+
+    .pricingListItemWrapper:last-child {
+        padding-bottom: 10px;
+    }
+
+    .pricingColumnHeaderTitle {
+        padding-bottom: 25px;
+    }
+
+    .pricingHeaderContent {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 561px) and (max-width:900px) {
+    .pricingColumnWrapper {
+        padding: var(--GUTTER);
+        padding-top: 2%;
+        padding-bottom: 2%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .pricingColumncontentRow {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .pricingColumnInnerWrapper {
+        width: 35%;
+        padding: 5px;
+        text-align: center;
+        background: var(--BG-GREY);
+        display: flex;
+        justify-content: center;
+    }
+
+    .pricingDivider {
+        color: #c39f77;
+        width: 60%;
+    }
+
+    .pricingColumnContentWrapper {
+        display: flex;
+        background: VAR(--WHITE);
+        width: 99%;
+        border: 1px solid var(--LIGHT-GREY);
+        padding: 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricingColumnTitle {
+        padding: 15px 0;
+    }
+
+    .pricingTitle {
+        font-size: 2.2rem;
+        font-weight: 700;
+    }
+
+    .pricingtag {
+        font-size: 2.5rem;
+        padding: 15px 0;
+    }
+
+    .pricingColumnContent {
+        padding-top: 15px;
+    }
+
+    .pricingHeaderTitle {
+        font-size: 4rem;
+        color: var(--BLACK);
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
+
+    .pricingListItemWrapper {
+        padding-bottom: 24px;
+        font-size: 1.5rem;
+    }
+
+    .pricingListItemWrapper:last-child {
+        padding-bottom: 10px;
+    }
+
+    .pricingColumnHeaderTitle {
+        padding-bottom: 25px;
+    }
+
+    .pricingHeaderContent {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 901px) {
+    .pricingColumnWrapper {
+        padding: var(--GUTTER);
+        padding-top: 2%;
+        padding-bottom: 2%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .pricingColumncontentRow {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .pricingColumnInnerWrapper {
+        width: 25%;
+        padding: 5px;
+        text-align: center;
+        background: var(--BG-GREY);
+        display: flex;
+        justify-content: center;
+    }
+
+    .pricingColumnContentWrapper {
+        display: flex;
+        background: VAR(--WHITE);
+        width: 99%;
+        border: 1px solid var(--LIGHT-GREY);
+        padding: 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricingDivider {
+        color: #c39f77;
+        width: 60%;
+    }
+
+    .pricingColumnTitle {
+        padding: 15px 0;
+    }
+
+    .pricingTitle {
+        font-size: 2.2rem;
+        font-weight: 700;
+    }
+
+    .pricingtag {
+        font-size: 4rem;
+        padding: 15px 0;
+    }
+
+    .pricingColumnContent {
+        padding-top: 15px;
+    }
+
+    .pricingHeaderTitle {
+        font-size: 4rem;
+        color: var(--BLACK);
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
+
+    .pricingListItemWrapper {
+        padding-bottom: 24px;
+        font-size: 1.5rem;
+    }
+
+    .pricingListItemWrapper:last-child {
+        padding-bottom: 10px;
+    }
+
+    .pricingColumnHeaderTitle {
+        padding-bottom: 25px;
+    }
+
+    .pricingHeaderContent {
+        font-size: 2rem;
+    }
+}
