@@ -1,19 +1,19 @@
 {
     "titles": [
         {
-            "src": "static/media/banner-bg-small.cb6d3c632b552389b925.jpeg",
+            "src": "https://nishpgithub.github.io/guru-driving/static/media/banner-bg-small.cb6d3c632b552389b925.jpeg",
             "alt": "Column Image",
             "title": "Welcome to our website",
             "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
-            "src": "static/media/banner-bg-small.cb6d3c632b552389b925.jpeg",
+            "src": "https://nishpgithub.github.io/guru-driving/static/media/banner-bg-small.cb6d3c632b552389b925.jpeg",
             "alt": "Column Image",
             "title": "Learn about our products",
             "content": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         {
-            "src": "static/media/banner-bg-small.cb6d3c632b552389b925.jpeg",
+            "src": "https://nishpgithub.github.io/guru-driving/static/media/banner-bg-small.cb6d3c632b552389b925.jpeg",
             "alt": "Column Image",
             "title": "Wide range of experience",
             "content": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
