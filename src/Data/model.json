@@ -90,5 +90,35 @@
                 "Filler item 5"
             ]
         }
+    ],
+    "tab": [
+        {
+            "title": "Tab 1",
+            "content": [
+                "Hello world.",
+                "Welcome to the review section"
+            ]
+        },
+        {
+            "title": "Tab 2",
+            "content": [
+                "Hello world 2.",
+                "Welcome to the review section"
+            ]
+        },
+        {
+            "title": "Tab 3",
+            "content": [
+                "Hello world 3.",
+                "Welcome to the review section"
+            ]
+        },
+        {
+            "title": "Tab 4",
+            "content": [
+                "Hello world 4.",
+                "Welcome to the review section"
+            ]
+        }
     ]
 }

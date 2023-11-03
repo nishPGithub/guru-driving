@@ -3,10 +3,12 @@ import Banner from "../Components/Banner/Banner";
 import InfoColumn from "../Components/InfoColumn/InfoColumn";
 import PricingColumn from "../Components/PricingColumn/PricingColumn";
 import SocialBanner from "../Components/SocialBanner/SocialBanner";
+import TabBar from "../Components/Tabbing/TabBar";
 
 export default function Home() {
     const titles = global.model.titles;
     const pricing = global.model.pricing;
+    const tab = global.model.tab;
 
     return (
         <div className="homeContent">
@@ -44,6 +46,11 @@ export default function Home() {
                         />
                     ))}
                 </div>
+            </div>
+            <div className="tabbingOuterWrapper">
+                <TabBar
+                    props={tab}
+                />
             </div>
         </div>
     )
