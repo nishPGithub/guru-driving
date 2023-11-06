@@ -1,54 +1,143 @@
-.tabbingOuterWrapper {
-    padding: var(--GUTTER);
-    background-color: var(--BG-GREY);
+@media (min-width: 585px) and (max-width: 900px) {
+    .tabbingOuterWrapper {
+        padding: var(--GUTTER);
+        background-color: var(--BG-GREY);
+    }
+
+    .tabbingWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5% 0;
+    }
+
+    .reviewTabbingWrapper {
+        text-align: center;
+    }
+
+    .reviewsTitle {
+        font-size: 4rem;
+        color: var(--BLACK);
+        font-weight: 700;
+        padding: 15px 0;
+    }
+
+    .reviewsDescription {
+        font-size: 1.8rem;
+    }
+
+    .TabbingButtons {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tabbingButtonWrapper {
+        padding-bottom: 2px;
+        color: var(--WHITE);
+    }
+
+    .tabbingButtonWrapper:last-child {
+        padding-bottom: 0;
+    }
+
+    .tabbingButton {
+        padding: 35px 30px;
+        font-size: 1.6rem;
+        background-color: #595959;
+    }
+
+    .TabbingButtons .tabbingButtonWrapper:first-child .tabbingButton {
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    .TabbingButtons .tabbingButtonWrapper:last-child .tabbingButton {
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .tabbingButton.active {
+        transition: background-color 0.5s;
+        background-color: var(--ORANGE);
+        box-shadow: 0 0 10px 2px var(--GREY);
+    }
+
+    .tabbingButton:hover {
+        transition: background-color 0.75s;
+        background-color: var(--ORANGE);
+        box-shadow: 0 0 10px 2px var(--GREY);
+    }
 }
 
-.tabbingWrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 5% 0;
-}
+@media (min-width: 901px) {
+    .tabbingOuterWrapper {
+        padding: var(--GUTTER);
+        background-color: var(--BG-GREY);
+    }
 
-.TabbingButtons {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
+    .tabbingWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5% 0;
+    }
 
-.tabbingButtonWrapper {
-    padding-bottom: 2px;
-    color: var(--WHITE);
-}
+    .reviewTabbingWrapper {
+        text-align: center;
+    }
 
-.tabbingButtonWrapper:last-child {
-    padding-bottom: 0;
-}
+    .reviewsTitle {
+        font-size: 4rem;
+        color: var(--BLACK);
+        font-weight: 700;
+        padding: 15px 0;
+    }
 
-.tabbingButton {
-    padding: 40px 35px;
-    font-size: 1.8rem;
-    background-color: #595959;
-}
+    .reviewsDescription {
+        font-size: 1.8rem;
+    }
 
-.TabbingButtons .tabbingButtonWrapper:first-child .tabbingButton {
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-}
+    .TabbingButtons {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 
-.TabbingButtons .tabbingButtonWrapper:last-child .tabbingButton {
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-}
+    .tabbingButtonWrapper {
+        padding-bottom: 2px;
+        color: var(--WHITE);
+    }
 
-.tabbingButton.active {
-    transition: background-color 0.5s;
-    background-color: var(--ORANGE);
-    box-shadow: 0 0 10px 2px var(--GREY);
-}
+    .tabbingButtonWrapper:last-child {
+        padding-bottom: 0;
+    }
 
-.tabbingButton:hover {
-    transition: background-color 0.75s;
-    background-color: var(--ORANGE);
-    box-shadow: 0 0 10px 2px var(--GREY);
+    .tabbingButton {
+        padding: 40px 35px;
+        font-size: 1.8rem;
+        background-color: #595959;
+    }
+
+    .TabbingButtons .tabbingButtonWrapper:first-child .tabbingButton {
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    .TabbingButtons .tabbingButtonWrapper:last-child .tabbingButton {
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .tabbingButton.active {
+        transition: background-color 0.5s;
+        background-color: var(--ORANGE);
+        box-shadow: 0 0 10px 2px var(--GREY);
+    }
+
+    .tabbingButton:hover {
+        transition: background-color 0.75s;
+        background-color: var(--ORANGE);
+        box-shadow: 0 0 10px 2px var(--GREY);
+    }
 }

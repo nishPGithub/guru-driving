@@ -48,6 +48,10 @@ export default function Home() {
                 </div>
             </div>
             <div className="tabbingOuterWrapper">
+                <div className="reviewTabbingWrapper">
+                    <h2 className="reviewsTitle">Reviews</h2>
+                    <p className="reviewsDescription">Read What Others Have Said</p>
+                </div>
                 <TabBar
                     props={tab}
                 />
