@@ -1,3 +1,76 @@
+@media (max-width: 585px) {
+    .carouselOuterWrapper {
+        text-align: center;
+        padding: var(--GUTTER);
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .carouselWrapper {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carouselInnerWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .itemCurrent {
+        width: 250px;
+    }
+
+    .carouselButtonWrapper {
+        font-size: 4rem;
+    }
+
+    .carouselButtonWrapper:first-child {
+        padding-right: 25px;
+    }
+
+    .carouselButtonWrapper:last-child {
+        padding-left: 25px;
+    }
+
+    .carouselContentWrapper {
+        display: flex;
+    }
+
+    .carouselImg {
+        display: none;
+    }
+
+    .carouselImg.active {
+        display: block;
+        width: 100%;
+    }
+
+    .carouselNavWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .carouselNavItem {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin: 0 10px;
+        border: none;
+        background-color: #ccc;
+        cursor: pointer;
+    }
+
+    .carouselNavItem.active {
+        background-color: #333;
+    }
+}
+
 @media (min-width: 586px) and (max-width: 900px) {
     .carouselOuterWrapper {
         text-align: center;
