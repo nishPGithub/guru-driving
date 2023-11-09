@@ -1,4 +1,89 @@
-@media (min-width: 585px) and (max-width: 900px) {
+@media (max-width: 560px) {
+    .tabbingOuterWrapper {
+        padding: var(--GUTTER);
+        background-color: var(--BG-GREY);
+    }
+
+    .tabbingWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 5% 0;
+    }
+
+    .reviewTabbingWrapper {
+        text-align: center;
+    }
+
+    .reviewsTitle {
+        font-size: 4rem;
+        color: var(--BLACK);
+        font-weight: 700;
+        padding: 15px 0;
+    }
+
+    .reviewsDescription {
+        font-size: 1.8rem;
+    }
+
+    .TabbingButtons {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tabbingButtonWrapper {
+        padding-bottom: 2px;
+        color: var(--WHITE);
+    }
+
+    .tabbingButtonWrapper:last-child {
+        padding-bottom: 0;
+    }
+
+    .tabbingButton {
+        padding: 35px 30px;
+        font-size: 1.6rem;
+        background-color: #595959;
+    }
+
+    .TabbingButtons .tabbingButtonWrapper:first-child .tabbingButton {
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    .TabbingButtons .tabbingButtonWrapper:last-child .tabbingButton {
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .tabbingButton.active {
+        background-color: var(--ORANGE);
+        box-shadow: 0 0 10px 2px var(--GREY);
+    }
+
+    .tabbingButton:hover {
+        transition: background-color 0.75s;
+        background-color: var(--ORANGE);
+        box-shadow: 0 0 10px 2px var(--GREY);
+    }
+
+    .tabbingContents {
+        width: 50%;
+    }
+
+    .tabContentWrapper {
+        text-align: center;
+        padding-bottom: 15px;
+        font-size: 2rem;
+    }
+
+    .tabContentWrapper:last-child {
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 561px) and (max-width: 900px) {
     .tabbingOuterWrapper {
         padding: var(--GUTTER);
         background-color: var(--BG-GREY);
@@ -67,6 +152,16 @@
         transition: background-color 0.75s;
         background-color: var(--ORANGE);
         box-shadow: 0 0 10px 2px var(--GREY);
+    }
+
+    .tabContentWrapper {
+        text-align: center;
+        padding-bottom: 15px;
+        font-size: 2.5rem;
+    }
+
+    .tabContentWrapper:last-child {
+        padding-bottom: 0;
     }
 }
 
@@ -139,5 +234,15 @@
         transition: background-color 0.75s;
         background-color: var(--ORANGE);
         box-shadow: 0 0 10px 2px var(--GREY);
+    }
+
+    .tabContentWrapper {
+        text-align: center;
+        padding-bottom: 15px;
+        font-size: 3rem;
+    }
+
+    .tabContentWrapper:last-child {
+        padding-bottom: 0;
     }
 }
