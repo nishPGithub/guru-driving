@@ -1,0 +1,133 @@
+@media(max-width: 560px) {
+    .AccordianWrapper {
+        padding: var(--GUTTER);
+    }
+
+    .szh-accordion {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .accordianHeader {
+        padding: 20px 0;
+        text-align: center;
+        font-size: 4rem;
+        color: var(--BLACK);
+    }
+
+    .szh-accordion__item.szh-accordion__item--status-exited {
+        font-size: 2.2rem;
+        padding: 15px;
+        border: solid 1px;
+        width: 300px;
+    }
+
+    .szh-accordion__item.szh-accordion__item--status-exited:first-child {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .szh-accordion__item.szh-accordion__item--status-exited:last-child {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .szh-accordion__item.szh-accordion__item--status-entered.szh-accordion__item--expanded {
+        font-size: 2.2rem;
+        padding: 15px;
+        border: solid 1px;
+        width: 300px;
+    }
+
+    .szh-accordion__item.szh-accordion__item--status-entered.szh-accordion__item--expanded:first-child {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .szh-accordion__item.szh-accordion__item--status-entered.szh-accordion__item--expanded:last-child {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .szh-accordion__item-content {
+        padding-top: 20px;
+        font-size: 1.6rem;
+    }
+
+    .ReactAccordionPanel__ContentWrapper {
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.3s ease-out;
+    }
+}
+
+@media (min-width: 561px) and (max-width: 900px) {
+    .AccordianWrapper {
+        padding: var(--GUTTER);
+    }
+
+    .szh-accordion {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .accordianHeader {
+        padding: 20px 0;
+        text-align: center;
+        font-size: 4rem;
+        color: var(--BLACK);
+    }
+
+    .szh-accordion__item.szh-accordion__item--status-exited {
+        font-size: 2.6rem;
+        padding: 15px;
+        border: solid 1px;
+        width: 400px;
+    }
+
+    .szh-accordion__item.szh-accordion__item--status-exited:first-child {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .szh-accordion__item.szh-accordion__item--status-exited:last-child {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .szh-accordion__item.szh-accordion__item--status-entered.szh-accordion__item--expanded {
+        font-size: 2.6rem;
+        padding: 15px;
+        border: solid 1px;
+        width: 400px;
+    }
+
+    .szh-accordion__item.szh-accordion__item--status-entered.szh-accordion__item--expanded:first-child {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .szh-accordion__item.szh-accordion__item--status-entered.szh-accordion__item--expanded:last-child {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .szh-accordion__item-content {
+        padding-top: 20px;
+        font-size: 1.8rem;
+    }
+
+    .ReactAccordionPanel__ContentWrapper {
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.3s ease-out;
+    }
+
+}
+
+@media (min-width: 901px) {
+}
