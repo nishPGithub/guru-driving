@@ -1,5 +1,4 @@
 import { Accordion, AccordionItem } from '@szhsin/react-accordion'
-import './accordian.css';
 
 export default function BasicAccordian() {
     return (

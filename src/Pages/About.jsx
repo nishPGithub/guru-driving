@@ -3,6 +3,7 @@ import Banner from "../Components/Banner/Banner";
 import SocialBanner from "../Components/SocialBanner/SocialBanner";
 import InfoColumn from "../Components/InfoColumn/InfoColumn";
 import BasicAccordian from "../Components/Accordian/Accordian";
+import '../Components/Accordian/accordian.css';
 
 export default function About() {
     const titles = global.model.titles;
