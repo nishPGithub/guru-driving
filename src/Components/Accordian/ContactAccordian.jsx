@@ -1,14 +1,14 @@
 import { Accordion, AccordionItem } from '@szhsin/react-accordion'
 import './accordian.css';
 
-export default function BasicAccordian() {
+export default function ContactAccordian() {
     return (
         <Accordion>
             <AccordionItem header="Who are we?">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                 do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </AccordionItem>
-            <AccordionItem header="What will you learn?">
+            <AccordionItem header="How to contact us?">
                 Quisque eget luctus mi, vehicula mollis lorem. Proin fringilla
                 vel erat quis sodales. Nam ex enim, eleifend venenatis lectus
                 vitae, accumsan auctor mi.
