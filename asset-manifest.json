@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/guru-driving/static/css/main.f1804656.css",
-    "main.js": "/guru-driving/static/js/main.702a875b.js",
+    "main.css": "/guru-driving/static/css/main.64abce46.css",
+    "main.js": "/guru-driving/static/js/main.f4ed3685.js",
     "static/js/787.bc1800c5.chunk.js": "/guru-driving/static/js/787.bc1800c5.chunk.js",
     "static/media/banner-bg-large.jpeg": "/guru-driving/static/media/banner-bg-large.982a619df7e0c9337326.jpeg",
     "static/media/banner-bg-medium.jpeg": "/guru-driving/static/media/banner-bg-medium.a00f3fbfdfa633e10c77.jpeg",
@@ -11,12 +11,12 @@
     "static/media/icomoon.woff?2uivd8": "/guru-driving/static/media/icomoon.d385bb5ba3d6a4b03b58.woff",
     "static/media/icomoon.ttf?2uivd8": "/guru-driving/static/media/icomoon.001e2d3c8c6d5c8a13b9.ttf",
     "index.html": "/guru-driving/index.html",
-    "main.f1804656.css.map": "/guru-driving/static/css/main.f1804656.css.map",
-    "main.702a875b.js.map": "/guru-driving/static/js/main.702a875b.js.map",
+    "main.64abce46.css.map": "/guru-driving/static/css/main.64abce46.css.map",
+    "main.f4ed3685.js.map": "/guru-driving/static/js/main.f4ed3685.js.map",
     "787.bc1800c5.chunk.js.map": "/guru-driving/static/js/787.bc1800c5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1804656.css",
-    "static/js/main.702a875b.js"
+    "static/css/main.64abce46.css",
+    "static/js/main.f4ed3685.js"
   ]
 }
