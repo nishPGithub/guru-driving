@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../Components/Banner/Banner";
-import SimpleSlider from "../Components/Carousel/InfinteCarousel";
+import InfinteCarousel from "../Components/Carousel/InfinteCarousel";
 import InfoColumn from "../Components/InfoColumn/InfoColumn";
 import PricingColumn from "../Components/PricingColumn/PricingColumn";
 import SocialBanner from "../Components/SocialBanner/SocialBanner";
@@ -63,7 +63,9 @@ export default function Home() {
                     <h2 className="pricingHeaderTitle">Our Success Stories</h2>
                     <p className="pricingHeaderContent">Join us and become a part of it</p>
                 </div>
-                <SimpleSlider />
+                <InfinteCarousel
+                    data={carousel}
+                />
             </div>
         </div>
     )
