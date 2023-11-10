@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "../Components/Banner/Banner";
+import SimpleSlider from "../Components/Carousel/InfinteCarousel";
 import InfoColumn from "../Components/InfoColumn/InfoColumn";
 import PricingColumn from "../Components/PricingColumn/PricingColumn";
 import SocialBanner from "../Components/SocialBanner/SocialBanner";
@@ -9,6 +10,7 @@ export default function Home() {
     const titles = global.model.titles;
     const pricing = global.model.pricing;
     const tab = global.model.tab;
+    const carousel = global.model.CarouselItems;
 
     return (
         <div className="homeContent">
@@ -55,6 +57,13 @@ export default function Home() {
                 <TabBar
                     props={tab}
                 />
+            </div>
+            <div className="carouselOuterWrapper">
+                <div className="carouselBanner">
+                    <h2 className="pricingHeaderTitle">Our Success Stories</h2>
+                    <p className="pricingHeaderContent">Join us and become a part of it</p>
+                </div>
+                <SimpleSlider />
             </div>
         </div>
     )
