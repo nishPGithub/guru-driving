@@ -1,0 +1,221 @@
+@media (max-width: 560px) {
+    .footerFormWrapper {
+        background-color: var(--BG-GREY);
+        padding: var(--GUTTER);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerContactBanner {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .footerFormInnerWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 25px 0;
+    }
+
+    form.footerForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        outline: none;
+    }
+
+    .formColumn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerLabel {
+        padding-bottom: 15px;
+    }
+
+    .footerInput {
+        outline: none;
+        font-size: 1.6rem;
+        border-bottom: 1px solid var(--BLACK);
+        padding: 15px 0 15px 5px;
+        width: 250px;
+        color: var(--BLACK);
+    }
+
+    textarea.footerInput {
+        resize: none;
+        height: 178px;
+        width: 250px;
+    }
+
+    button.footerSubmit:hover {
+        box-shadow: 0 0 30px 4px var(--GREY);
+    }
+
+    button.footerSubmit {
+        font-size: 1.8rem;
+        background-color: var(--ORANGE);
+        color: var(--WHITE);
+        font-weight: 600;
+        padding: 5px 30px;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 561px) and (max-width: 900px) {
+    .footerFormWrapper {
+        background-color: var(--BG-GREY);
+        padding: var(--GUTTER);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerContactBanner {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .footerFormInnerWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 25px 0;
+    }
+
+    form.footerForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        outline: none;
+    }
+
+    .formColumn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formColumn:first-child {
+        padding-right: 50px;
+    }
+
+    .formColumn:first-child {
+        padding-right: 50px;
+    }
+
+    .formRow {
+        display: flex;
+    }
+
+    .footerLabel {
+        padding-bottom: 15px;
+    }
+
+    .footerInput {
+        outline: none;
+        font-size: 1.6rem;
+        border-bottom: 1px solid var(--BLACK);
+        padding: 15px 0 15px 5px;
+        width: 200px;
+        color: var(--BLACK);
+    }
+
+    textarea.footerInput {
+        resize: none;
+        height: 178px;
+        width: 250px;
+    }
+
+    button.footerSubmit:hover {
+        box-shadow: 0 0 30px 4px var(--GREY);
+    }
+
+    button.footerSubmit {
+        font-size: 1.8rem;
+        background-color: var(--ORANGE);
+        color: var(--WHITE);
+        font-weight: 600;
+        padding: 5px 30px;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 901px) {
+    .footerFormWrapper {
+        background-color: var(--BG-GREY);
+        padding: var(--GUTTER);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerContactBanner {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .footerFormInnerWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 25px 0;
+    }
+
+    form.footerForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        outline: none;
+    }
+
+    .formColumn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formColumn:first-child {
+        padding-right: 50px;
+    }
+
+    .formRow {
+        display: flex;
+    }
+
+    .footerLabel {
+        padding-bottom: 15px;
+    }
+
+    .footerInput {
+        outline: none;
+        font-size: 1.6rem;
+        border-bottom: 1px solid var(--BLACK);
+        padding: 15px 0 15px 5px;
+        width: 250px;
+        color: var(--BLACK);
+    }
+
+    textarea.footerInput {
+        resize: none;
+        height: 178px;
+        width: 350px;
+    }
+
+    button.footerSubmit:hover {
+        box-shadow: 0 0 30px 4px var(--GREY);
+    }
+
+    button.footerSubmit {
+        font-size: 1.8rem;
+        background-color: var(--ORANGE);
+        color: var(--WHITE);
+        font-weight: 600;
+        padding: 5px 30px;
+        border-radius: 5px;
+    }
+}
+

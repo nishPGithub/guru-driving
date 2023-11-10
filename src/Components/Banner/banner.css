@@ -48,7 +48,7 @@
         width: 32.5%;
     }
 
-    .bannerForm label {
+    .bannerFormLabel  {
         padding: 5px;
     }
 
@@ -132,7 +132,7 @@
         width: 32.5%;
     }
 
-    .bannerForm label {
+    .bannerFormLabel{
         padding: 10px;
     }
 
@@ -218,7 +218,7 @@
         width: 32.5%;
     }
 
-    label {
+    .bannerFormLabel {
         padding: 15px;
     }
 
