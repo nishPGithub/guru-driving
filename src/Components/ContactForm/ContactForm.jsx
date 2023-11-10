@@ -29,16 +29,16 @@ export default function ContactForm(props) {
     return (
         <div className='formWrapper' >
             <form className={props.class} onSubmit={handleSubmit}>
-                <label>
+                <label className='bannerFormLabel'>
                     <input required="True" className={props.inputClass} placeholder='Full Name' type="text" name='fullName' value={fullName} onChange={(event) => setFullName(event.target.value)} />
                 </label>
-                <label>
+                <label className='bannerFormLabel'>
                     <input required className={props.inputClass} placeholder="Phone number" type="tel" name="Phone" value={phoneNumber} pattern="[0-9]{11}" minLength={11} maxLength={11} onChange={(event) => setPhoneNumber(event.target.value)}/>
                 </label>
-                <label>
+                <label className='bannerFormLabel'>
                     <input required="True" className={props.inputClass} placeholder='Email' type="email" name='Email' value={emailAddress} onChange={(event) => setEmailAddress(event.target.value)} />
                 </label>
-                <label>
+                <label className='bannerFormLabel'>
                     <textarea className={props.inputClass} placeholder='Message' name='Message' value={message} onChange={(event) => setMessage(event.target.value)} />
                 </label>
                 <button className={props.buttonClass} type="submit">Submit</button>

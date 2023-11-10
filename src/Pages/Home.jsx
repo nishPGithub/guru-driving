@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../Components/Banner/Banner";
 import InfinteCarousel from "../Components/Carousel/InfinteCarousel";
+import FooterForm from "../Components/ContactForm/FooterForm";
 import InfoColumn from "../Components/InfoColumn/InfoColumn";
 import PricingColumn from "../Components/PricingColumn/PricingColumn";
 import SocialBanner from "../Components/SocialBanner/SocialBanner";
@@ -66,6 +67,13 @@ export default function Home() {
                 <InfinteCarousel
                     data={carousel}
                 />
+            </div>
+            <div className="footerFormWrapper">
+                <div className="footerContactBanner">
+                    <h2 className="pricingHeaderTitle">Contact Us</h2>
+                    <p className="pricingHeaderContent">Get in touch today and learn to drive</p>
+                </div>
+                <FooterForm class="footerForm" inputClass="footerInput"/>
             </div>
         </div>
     )
