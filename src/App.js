@@ -7,13 +7,14 @@ import AppRoutes from "./Components/Routing/AppRoutes"
 import "../src/Styles/style.css";
 import Footer from "./Components/Footer/Footer";
 import Pricing from "./Pages/Pricing";
+import Reviews from "./Pages/Reviews";
 
 function App() {
     const routes = [
         { path: "/", element: <Home /> },
         { path: "/about", element: <About /> },
         { path: "/pricing", element: <Pricing /> },
-        { path: "/reviews", element: App },
+        { path: "/reviews", element: <Reviews /> },
         { path: "/contact", element: App },
     ];
 
