@@ -20,7 +20,7 @@ function App() {
     ];
 
     return (
-        <BrowserRouter >
+        <BrowserRouter basename="/guru-driving">
             <div className="App">
                 <Header />
                 <AppRoutes routes={routes} />
