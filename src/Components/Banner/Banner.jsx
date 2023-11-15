@@ -8,7 +8,6 @@ export default function Banner() {
     return (
         <div className="bannerWrapper">
             <div className="bannerInner">
-                <img src="../../Images/37-unscreen.gif" alt="logo-rebound"/>
             </div>
             <div className="bannerInner bannerForm">
                 <div className="bannerInnerWrapper">
