@@ -19,7 +19,7 @@ export default function ContactForm(props) {
             Message: message
         }
 
-        // axios.post(API_LINK, data)
+        axios.post(API_LINK, data)
         setFullName('');
         setPhoneNumber('');
         setEmailAddress('');

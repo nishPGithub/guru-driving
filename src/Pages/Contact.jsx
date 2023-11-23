@@ -7,9 +7,6 @@ import ContactAccordian from "../Components/Accordian/ContactAccordian";
 
 export default function Contact() {
     const titles = global.model.titles;
-    const pricing = global.model.pricing;
-    const tab = global.model.tab;
-    const carousel = global.model.CarouselItems;
 
     return (
         <div className="contactContent">

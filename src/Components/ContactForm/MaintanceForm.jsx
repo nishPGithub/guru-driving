@@ -3,7 +3,7 @@ import axios from 'axios';
 import './footerForm.css';
 
 
-export default function FooterForm(props) {
+export default function MaintanceForm(props) {
     const [fullName, setFullName] = useState('');
     const [phoneNumber, setPhoneNumber] = useState('');
     const [emailAddress, setEmailAddress] = useState('');
@@ -28,27 +28,27 @@ export default function FooterForm(props) {
     };
 
     return (
-        <div className='footerFormInnerWrapper' >
+        <div className='maintanceFormInnerWrapper' >
             <form className={props.class} onSubmit={handleSubmit}>
-                <div className='formRow'>
-                    <div className='formColumn'>
-                        <label className='footerLabel'>
+                <div className='maintanceFormRow'>
+                    <div className='maintanceFormColumn'>
+                        <label className='maintanceLabel'>
                             <input required="True" className={props.inputClass} placeholder='Full Name' type="text" name='fullName' value={fullName} onChange={(event) => setFullName(event.target.value)} />
                         </label>
-                        <label className='footerLabel'>
+                        <label className='maintanceLabel'>
                             <input required className={props.inputClass} placeholder="Phone number" type="tel" name="Phone" value={phoneNumber} pattern="[0-9]{11}" minLength={11} maxLength={11} onChange={(event) => setPhoneNumber(event.target.value)}/>
                         </label>
-                        <label className='footerLabel'>
+                        <label className='maintanceLabel'>
                             <input required="True" className={props.inputClass} placeholder='Email' type="email" name='Email' value={emailAddress} onChange={(event) => setEmailAddress(event.target.value)} />
                         </label>
                     </div>
-                    <div className='formColumn'>
-                        <label className='footerLabel'>
+                    <div className='maintanceFormColumn'>
+                        <label className='maintanceLabel'>
                             <textarea className={props.inputClass} placeholder='Message' name='Message' value={message} onChange={(event) => setMessage(event.target.value)} />
                         </label>
                     </div>
                 </div>
-                <button className="footerSubmit" type="submit">Submit</button>
+                <button className="maintanceSubmit" type="submit">Submit</button>
             </form>
         </div>
     );

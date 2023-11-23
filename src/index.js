@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import "./Styles/destyle.css"
-import App from './App';
 import './Global/global';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Maintance from './Components/Maintance/Maintance';
 

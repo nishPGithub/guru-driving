@@ -1,0 +1,50 @@
+@media (min-width: 901px) {
+    body {
+        background-color: var(--BG-GREY);
+    }
+    .maintanceHeader {
+        font-size: 3rem;
+        padding: 25px 15px;
+    }
+
+    .maintanceForm {
+        display: flex;
+        flex-direction: column;
+        font-size: 2.2rem;
+        text-align: start;
+        align-items: center;
+    }
+
+    .maintanceFormRow {
+        display: flex;
+        justify-content: center;
+    }
+
+    .maintanceFormColumn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .maintanceInput {
+        outline: none;
+        border-bottom: 1px solid black;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .maintanceFormColumn:first-child {
+        padding-right: 55px;
+    }
+
+    button.maintanceSubmit {
+        width: 20%;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 5px;
+    }
+
+    button.maintanceSubmit:hover {
+        box-shadow: 0px 0px 10px 1px var(--GREY);
+
+    }
+}
