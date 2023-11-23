@@ -3,6 +3,10 @@
         background-color: var(--BG-GREY);
     }
 
+    body.modalActive {
+        background-color: var(--GREY);
+    }
+
     p {
         padding-bottom: 15px;
     }
@@ -56,11 +60,46 @@
         height: 133px;
         resize: none;
     }
+
+    .maintanceFormInnerWrapper.modalActive {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modal {
+        position: fixed;
+        top: 100px;
+        font-size: 2rem;
+        width: 75%;
+        height:75%;
+        background-color: var(--WHITE);
+        border-radius: 5px;
+        display: flex;
+    }
+
+    .modalContent {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .close {
+        width: 40px;
+        font-size: 3rem;
+        cursor: pointer;
+    }
 }
 
 @media (min-width: 561px) and (max-width: 900px) {
     body {
         background-color: var(--BG-GREY);
+    }
+
+    body.modalActive {
+        background-color: var(--GREY);
     }
 
     p {
@@ -115,6 +154,36 @@
     textarea.maintanceInput {
         height: 133px;
         resize: none;
+    }
+
+    .maintanceFormInnerWrapper.modalActive {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modal {
+        position: fixed;
+        top: 220px;
+        font-size: 3.5rem;
+        width: 75%;
+        height:55%;
+        background-color: var(--WHITE);
+        border-radius: 5px;
+        display: flex;
+    }
+
+    .modalContent {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .close {
+        width: 40px;
+        cursor: pointer;
     }
 }
 
@@ -123,6 +192,10 @@
         background-color: var(--BG-GREY);
     }
 
+    body.modalActive {
+        background-color: var(--GREY);
+    }
+
     p {
         padding-bottom: 15px;
     }
@@ -175,5 +248,35 @@
     textarea.maintanceInput {
         height: 133px;
         resize: none;
+    }
+
+    .maintanceFormInnerWrapper.modalActive {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modal {
+        position: fixed;
+        top: 280px;
+        font-size: 4rem;
+        width: 75%;
+        height:47%;
+        background-color: var(--WHITE);
+        border-radius: 5px;
+        display: flex;
+    }
+
+    .modalContent {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .close {
+        width: 40px;
+        cursor: pointer;
     }
 }

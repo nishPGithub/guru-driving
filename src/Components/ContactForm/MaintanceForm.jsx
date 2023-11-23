@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './footerForm.css';
+import Logo from '../SVG/Logo';
 
 
 export default function MaintanceForm(props) {
@@ -8,6 +9,7 @@ export default function MaintanceForm(props) {
     const [phoneNumber, setPhoneNumber] = useState('');
     const [emailAddress, setEmailAddress] = useState('');
     const [message, setMessage] = useState('');
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -20,15 +22,41 @@ export default function MaintanceForm(props) {
             Message: message
         }
 
-        axios.post(API_LINK, data)
+        setIsModalOpen(true);
+        applyModalActiveClassToAllElements(true);
+
+       /* axios.post(API_LINK, data)
+            .then(() => {
+            })
+            .catch((error) => {
+                console.error('Error submitting form:', error);
+            });*/
+
         setFullName('');
         setPhoneNumber('');
         setEmailAddress('');
         setMessage('');
     };
 
+    const closeModal = () => {
+        setIsModalOpen(false);
+        applyModalActiveClassToAllElements(false);
+    };
+
+    const applyModalActiveClassToAllElements = (isActive) => {
+        const elements = document.querySelectorAll('*'); // Select all elements on the page
+        elements.forEach((element) => {
+            if (isActive) {
+                element.classList.add('modalActive'); // Add modalActive class to each element
+            } else {
+                element.classList.remove('modalActive'); // Remove modalActive class from each element
+            }
+        });
+    };
+
+
     return (
-        <div className='maintanceFormInnerWrapper' >
+        <div className={`maintanceFormInnerWrapper ${isModalOpen ? 'modalActive' : ''}`}>
             <form className={props.class} onSubmit={handleSubmit}>
                 <div className='maintanceFormRow'>
                     <div className='maintanceFormColumn'>
@@ -36,7 +64,7 @@ export default function MaintanceForm(props) {
                             <input required="True" className={props.inputClass} placeholder='Full Name' type="text" name='fullName' value={fullName} onChange={(event) => setFullName(event.target.value)} />
                         </label>
                         <label className='maintanceLabel'>
-                            <input required className={props.inputClass} placeholder="Phone number" type="tel" name="Phone" value={phoneNumber} pattern="[0-9]{11}" minLength={11} maxLength={11} onChange={(event) => setPhoneNumber(event.target.value)}/>
+                            <input required className={props.inputClass} placeholder="Phone number" type="tel" name="Phone" value={phoneNumber} pattern="[0-9]{11}" minLength={11} maxLength={11} onChange={(event) => setPhoneNumber(event.target.value)} />
                         </label>
                         <label className='maintanceLabel'>
                             <input required="True" className={props.inputClass} placeholder='Email' type="email" name='Email' value={emailAddress} onChange={(event) => setEmailAddress(event.target.value)} />
@@ -50,6 +78,16 @@ export default function MaintanceForm(props) {
                 </div>
                 <button className="maintanceSubmit" type="submit">Submit</button>
             </form>
+            {isModalOpen && (
+                <div className="modal">
+                    <div className="modalContent">
+                        <Logo />
+                        <h3>Thank you for submitting the form!</h3>
+                        <p className='modalContent'>We will get in touch with you shortly!</p>
+                        <span className="close" onClick={closeModal}>&times;</span>
+                    </div>
+                </div>
+            )}
         </div>
     );
 }
