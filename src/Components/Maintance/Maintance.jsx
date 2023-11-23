@@ -8,7 +8,8 @@ export default function Maintance() {
         <div className="MaintanceWrapper">
             <Logo />
             <div className="maintanceHeader">
-                <h1>Sorry We Are Under Maintance. Please Submit All Requests Below:</h1>
+                <p>Thank You For Visiting Guru Driving Academy</p>
+                <h1>Sorry For the Inconvience We Are Under Currently Maintenance. Please Submit All Requests Below:</h1>
             </div>
             <div className="maintanceContent">
                 <MaintanceForm class="maintanceForm" inputClass="maintanceInput" />
