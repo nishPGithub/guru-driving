@@ -5,8 +5,6 @@ import InfinteCarousel from "../Components/Carousel/InfinteCarousel";
 import Banner from "../Components/Banner/Banner";
 
 export default function Reviews() {
-    const titles = global.model.titles;
-    const pricing = global.model.pricing;
     const tab = global.model.tab;
     const carousel = global.model.CarouselItems;
 
