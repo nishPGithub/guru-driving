@@ -22,15 +22,15 @@ export default function MaintanceForm(props) {
             Message: message
         }
 
-        setIsModalOpen(true);
-        applyModalActiveClassToAllElements(true);
 
-       /* axios.post(API_LINK, data)
-            .then(() => {
+         axios.post(API_LINK, data)
+        .then(() => {
+                setIsModalOpen(true);
+                applyModalActiveClassToAllElements(true);
             })
             .catch((error) => {
                 console.error('Error submitting form:', error);
-            });*/
+            });
 
         setFullName('');
         setPhoneNumber('');
@@ -44,12 +44,12 @@ export default function MaintanceForm(props) {
     };
 
     const applyModalActiveClassToAllElements = (isActive) => {
-        const elements = document.querySelectorAll('*'); // Select all elements on the page
+        const elements = document.querySelectorAll('*');
         elements.forEach((element) => {
             if (isActive) {
-                element.classList.add('modalActive'); // Add modalActive class to each element
+                element.classList.add('modalActive');
             } else {
-                element.classList.remove('modalActive'); // Remove modalActive class from each element
+                element.classList.remove('modalActive');
             }
         });
     };
